@@ -1,0 +1,25 @@
+Credit Estimation AI/ML Classification Model
+HMEQ (Home Equity Loan) Dataset
+
+A consumer credit department of a bank aims to automate the decision-making process for approving "home equity loan limits." The model will be built using data collected from applicants who have been granted credit through the existing credit commitment process. The model will be constructed using predictive modeling tools; however, the resulting model should be interpretable enough to provide reasons for any negative actions (such as rejection).
+
+Content
+The HMEQ dataset contains features and default information for 5,960 home equity loans. The target variable (BAD) is a binary variable indicating whether an applicant eventually defaults. This adverse outcome occurred in 1,189 cases (20%). Twelve input variables are recorded for each applicant.
+
+A home equity loan is a credit in which the borrower uses their equity as the primary collateral.
+
+The dataset has the following features:
+
+◾ BAD: 1 = applicant defaulted on loan or seriously delinquent; 0 = applicant paid loan
+◾ LOAN: Amount of the loan request
+◾ MORTDUE: Amount due on existing mortgage
+◾ VALUE: Value of current property
+◾ REASON: DebtCon = debt consolidation; HomeImp = home improvement
+◾ JOB: Occupational categories
+◾ YOJ: Years at present job
+◾ DEROG: Number of major derogatory reports
+◾ DELINQ: Number of delinquent credit lines
+◾ CLAGE: Age of oldest credit line in months
+◾ NINQ: Number of recent credit inquiries
+◾ CLNO: Number of credit lines
+◾ DEBTINC: Debt-to-income ratio
